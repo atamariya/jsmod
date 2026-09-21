@@ -1,4 +1,4 @@
 // b.js
-import { a } from './a.js';
-export const b = 'b';
-print('b.js: a =', a);
+import { fa } from './a.js';
+export function fb() { return 'b'; }
+print('b.js: fa =', typeof fa);
